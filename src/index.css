@@ -1,21 +1,13 @@
-html {
-    min-height: 100%;
-  }
   body {
-    margin: 0;
-    padding: 0;
+
     font-family: sans-serif;
     background-color: #242424;
-    min-height: 100%;
-    padding-bottom: 5rem;
   }
   h1, h2  {
     color: white;
     padding: 3rem 0;
-    text-align: center;
-  
-    text-transform: uppercase;
-  
+    text-align: center;  
+    text-transform: uppercase;  
     font-family: 'Staatliches', cursive;
     letter-spacing: 1px;
   }
@@ -41,16 +33,6 @@ html {
     color: white;
   }
   
-  input[type="date"],
-  input[type="time"] {
-    height: 38px;
-      padding: 6px 10px;
-      background-color: #fff;
-      border: 1px solid #D1D1D1;
-      border-radius: 4px;
-      box-shadow: none;
-      box-sizing: border-box;
-  }
   
   .cita {
     padding: 2rem;
@@ -82,12 +64,3 @@ html {
     margin-top: 2rem;
   }
   
-  .alerta-error {
-    background-color: white;
-    color: red;
-    padding: 1rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-family:  'Staatliches', cursive;
-  } 
