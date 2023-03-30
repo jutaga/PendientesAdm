@@ -12,7 +12,9 @@ export const App = () => {
             <Formulario/>
           </div>
           <div className="col-6">
-            <p className="text-light">2</p>
+            <p className="text-light">
+              
+            </p>
           </div>
         </div>
       </div>
