@@ -1,13 +1,17 @@
-## Administrador de Actividades Pendientes
+# Administrador de Actividades Pendientes
 Formulario para agregar un pendiente
 
-# Stack
+## Demo
+[Ver](https://jutaga.github.io/PendientesAdm/)
+
+
+### Stack
 - Bootstrap 5
 - React 
 - Typescript
 
-# Autor
+### Autor
 Juan pablo tabares
 
-# Estado
+### Estado
 Completado
