@@ -1,5 +1,3 @@
-import { Pendientes } from "../interfaces/form.interface";
-
 export const Actividad = ({actividad, eliminarActividad}: any) => {
 
   const {nombres, apellidos, id, descripcion, fecha} = actividad;
