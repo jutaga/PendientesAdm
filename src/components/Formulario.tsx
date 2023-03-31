@@ -3,7 +3,7 @@ import { Pendientes } from "../interfaces/form.interface";
 import { v4 as uuidv4 } from 'uuid';
 
 
-export const Formulario = () => {
+export const Formulario = ({ crearActividad }: any) => {
 
     //Crear el state de pendientes
     const [pendientes, setPendientes] = useState<Pendientes>({
@@ -44,17 +44,26 @@ export const Formulario = () => {
 
         //Actualizar el error
         setError(false);
-        
+
         //Asignar un ID
-        setPendientes({
+        const pendienteConId = {
             ...pendientes,
             id: uuidv4(),
-        });
+        };
+        setPendientes(pendienteConId);
 
 
         //Crear la cita
+        crearActividad(pendienteConId);
 
         //Reiniciar el form
+        setPendientes({
+            nombres: '',
+            apellidos: '',
+            fecha: '',
+            descripcion: '',
+            id:''
+        })
     }
 
     return (
